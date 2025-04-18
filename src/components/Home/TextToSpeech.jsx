@@ -19,7 +19,7 @@ export default function TextToSpeech() {
   const { languages, voices } = useVoices();
   const [voiceURI, setVoiceURI] = useState("");
   const [lang, setLang] = useState("");
-  const { speechStatus, start, pause, stop } = useSpeech({
+  const { speechStatus, start, stop } = useSpeech({
     text,
     lang,
     voiceURI,

@@ -1,6 +1,5 @@
 import { Box, Text } from "@chakra-ui/react";
 import React from "react";
-import { LuFacebook } from "react-icons/lu";
 import { FaBookOpen } from "react-icons/fa";
 
 const Logo = () => {
